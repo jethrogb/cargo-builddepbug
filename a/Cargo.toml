@@ -1,0 +1,10 @@
+[package]
+name = "a"
+version = "0.1.0"
+
+[features]
+bar = ["a-sys/bar"]
+
+[dependencies.a-sys]
+path = "../a-sys"
+version = "0.1.0"
